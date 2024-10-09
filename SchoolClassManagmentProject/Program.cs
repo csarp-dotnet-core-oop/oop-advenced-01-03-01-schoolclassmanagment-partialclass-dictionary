@@ -53,7 +53,7 @@ Console.WriteLine($"10.a osztáybevétele egy évben egy diák által:{exsisting
 int nonExsistingClassClassMoneyPerStudentInOneYear = schoolClassRepo.GetClassMoneyPerStudentInOneYear(-1, 'z');
 Console.WriteLine($"10.a osztáybevétele egy évben egy diák által:{nonExsistingClassClassMoneyPerStudentInOneYear}");
 
-Console.WriteLine("Diákok osztályonként");
+Console.WriteLine("Osztályok évfolyamonként");
 Dictionary<byte, int> gradeCount = schoolClassRepo.GetSchoolClassCountByGrade();
 
 // kulcsokon végigmenni
